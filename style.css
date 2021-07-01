@@ -1,0 +1,281 @@
+/*Root*/
+:root {
+    --font-grey: #6e6e76;
+    --back-grey: #202020;
+}
+
+@font-face {
+    font-family: dosis;
+    src: url(./Dosis-ExtraLight.ttf);
+}
+
+/*Universal Selectors*/
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--font-grey)
+}
+
+main {
+    display: flex;
+}
+
+/*Class Selectors*/
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: var(--back-grey);
+}
+
+.header h1 {
+    margin-left: 5em;
+    color: #fff;
+    font-family: dosis;
+    font-size: 50px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-right: 2em;
+    border: 2px solid #6e6e76;
+    list-style-type: none;
+    color: #6e6e76;
+    font-family: dosis;
+    font-size: 20px;
+}
+
+.header a {
+    padding: 30px;
+}
+
+.header div ul li a:hover {
+    color: #fff;
+    transition: ease-in-out 0.4s;
+}
+
+.header div ul li:hover {
+    border-color: #fff;
+    transition: ease-in-out 0.4s;
+}
+
+.banner {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    background-image: url("./henrik-donnestad-V6Qd6zA85ck-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about p {
+    color: #ffffff;
+    background-color: var(--back-grey);
+    text-align: center;
+    padding: 1em;
+    font-family: dosis;
+    font-size: 30px;
+}
+
+.port-title {
+    padding: 1em;
+    background-color: var(--back-grey);
+    text-align: center;
+    color: #fff;
+    font-family: dosis;
+    font-size: 50px;
+}
+
+.centered {
+    background-color: var(--back-grey);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ 
+ .card {
+     flex: 0 1 24%;
+ }
+
+ .card p {
+     text-align: center;
+     font-family: dosis;
+     font: 30px;
+     color: var(--font-grey);
+ }
+ .card h1 {
+     text-align: center;
+     justify-content: center;
+     font-family: dosis;
+     font-size: 30px;
+     padding: 0.5em;
+ }
+
+ .horiseon article {
+     background-image: url("./horiseon-backsplash.png");
+     height: 400px;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .horiseon:hover {
+     cursor: pointer;
+     transform: translateY(-0.75em);
+     filter: brightness(1.5);
+     opacity: 70%;
+     transition: ease-in 0.1s;
+ }
+
+ .horiseon article:hover {
+     cursor: default;
+ }
+
+ .horiseon a:hover {
+     color: #ffffff;
+ }
+
+ .tba1 article {
+     background-image: url("./tba1.jpg");
+     height: 400px;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .tba1:hover {
+     cursor: pointer;
+     transform: translateY(-0.75em);
+     filter: brightness(1.5);
+     opacity: 70%;
+     transition: ease-in 0.1s;
+ }
+
+ .tba1 article:hover {
+     cursor: default;
+ }
+
+ .tba1 a:hover {
+     color: #ffffff;
+ }
+
+ .tba2 article {
+     background-image: url("./tba2.jpg");
+     height: 400px;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .tba2:hover {
+     cursor: pointer;
+     transform: translateY(-0.75em);
+     filter: brightness(1.5);
+     opacity: 70%;
+     transition: ease-in 0.1s;
+ }
+
+ .tba2 article:hover {
+     cursor: default;
+ }
+
+ .tba2 a:hover {
+     color: #ffffff;
+ }
+
+ .tba3 article {
+     background-image: url("./tba3.jpg");
+     height: 400px;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .tba3:hover {
+     cursor: pointer;
+     transform: translateY(-0.75em);
+     filter: brightness(1.5);
+     opacity: 70%;
+     transition: ease-in 0.1s;
+ }
+
+ .tba3 article:hover {
+     cursor: default;
+ }
+
+ .tba3 a:hover {
+     color: #ffffff;
+ }
+
+ .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: var(--back-grey);
+ }
+
+ .footer ul li {
+     display: inline-flex;
+     padding: 1em;
+ }
+
+ .footer img {
+     height: 3em;
+     width: 3em;
+ }
+
+.contact {
+    display: inline-block;
+    font-family: dosis;
+    font-size: 20px;
+    color: var(--font-grey);
+    justify-content: center;
+    margin-left: 6em;
+}
+
+.links img:hover {
+    cursor: pointer;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 40em) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+ 
+    .card {
+        flex: 0 1 100;
+    }
+}
+
+@media screen and (max-width: 52em) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ 
+    .card {
+        flex: 0 1 48%;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .card {
+        flex: 0 1 24%;
+    }
+}
