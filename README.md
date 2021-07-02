@@ -1,4 +1,4 @@
-# Homework-02-portfolio-page
+# Homework-02-portfolio-page (https://iguessimnick.github.io/homework02-portfolio-page/)
 
 ## The purpose of the website is to act as a professional, digital portfolio that recruiters can view on multiple different screens formats. 
 
