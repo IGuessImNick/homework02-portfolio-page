@@ -1,7 +1,9 @@
 # Nick Skinner - A Portfolio
 
 ## Description
-Here upon these pages I have displayed my work as a junior web designer, thus far. 
+Here upon these pages I have displayed my work as a junior web designer, thus far.
+
+![portfolio](./assets/images/demo.png)
 
 ## Operations
 1. Scroll through the various sections
