@@ -10,13 +10,13 @@ Here upon these pages I have displayed my work as a junior web designer, thus fa
 2. Download my Resume at the top or here (./assets/Resume Nicholas Skinner.pdf)
 
 ## Website URL
-file:///C:/Users/Nick/homework02-portfolio-page/index.html
+https://iguessimnick.github.io/homework02-portfolio-page/
 
 ## Tech/Framework
 Built with:
-    *HTML
-    *CSS
-    *JavaScript
+    HTML
+    CSS
+    JavaScript
 
 ## Authors and Acknowledgment
 * Nick Skinner
