@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: dosis;
-    src: url(./Dosis-ExtraLight.ttf);
+    src: url(./assets/font/Dosis-ExtraLight.ttf);
 }
 
 /*Universal Selectors*/
@@ -140,15 +140,15 @@ main {
      color: #ffffff;
  }
 
- .tba1 article {
-     background-image: url("./tba1.jpg");
+ .project1 article {
+     background-image: url("./mellifluous.png");
      height: 400px;
      width: 100%;
      background-size: cover;
      background-position: center;
  }
 
- .tba1:hover {
+ .project1:hover {
      cursor: pointer;
      transform: translateY(-0.75em);
      filter: brightness(1.5);
@@ -156,23 +156,23 @@ main {
      transition: ease-in 0.1s;
  }
 
- .tba1 article:hover {
+ .project1 article:hover {
      cursor: default;
  }
 
- .tba1 a:hover {
+ .project1 a:hover {
      color: #ffffff;
  }
 
- .tba2 article {
-     background-image: url("./tba2.jpg");
+ .workday article {
+     background-image: url("./workday.png");
      height: 400px;
      width: 100%;
      background-size: cover;
      background-position: center;
  }
 
- .tba2:hover {
+ .workday:hover {
      cursor: pointer;
      transform: translateY(-0.75em);
      filter: brightness(1.5);
@@ -180,11 +180,11 @@ main {
      transition: ease-in 0.1s;
  }
 
- .tba2 article:hover {
+ .workday article:hover {
      cursor: default;
  }
 
- .tba2 a:hover {
+ .workday a:hover {
      color: #ffffff;
  }
 
@@ -234,7 +234,7 @@ main {
     display: inline-block;
     font-family: dosis;
     font-size: 20px;
-    color: var(--font-grey);
+    color: #fff;
     justify-content: center;
     margin-left: 6em;
 }
