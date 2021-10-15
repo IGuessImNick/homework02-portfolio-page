@@ -189,15 +189,15 @@ main {
      color: #ffffff;
  }
 
- .tba3 article {
-     background-image: url("./tba3.jpg");
+ .project2 article {
+     background-image: url("./project2.png");
      height: 400px;
      width: 100%;
      background-size: cover;
      background-position: center;
  }
 
- .tba3:hover {
+ .project2:hover {
      cursor: pointer;
      transform: translateY(-0.75em);
      filter: brightness(1.5);
@@ -205,11 +205,11 @@ main {
      transition: ease-in 0.1s;
  }
 
- .tba3 article:hover {
+ .project2 article:hover {
      cursor: default;
  }
 
- .tba3 a:hover {
+ .project2 a:hover {
      color: #ffffff;
  }
 
